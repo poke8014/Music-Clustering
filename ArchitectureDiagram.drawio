@@ -1,4 +1,4 @@
-<mxfile modified="2021-10-17T23:34:07.438Z" host="app.diagrams.net" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36" etag="lG_djozxJaGj6bqPSc6n" version="15.5.4" type="github">
+<mxfile modified="2021-10-19T00:13:01.317Z" host="app.diagrams.net" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36" etag="h3QB_0Q-y0nynhDDDwk3" version="15.5.4" type="github">
   <diagram id="C2fSY1v2SiZeoUbDoYyL" name="Page-1">
     <mxGraphModel dx="2062" dy="1122" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -10,22 +10,80 @@
         <mxCell id="3ne1QswCM8ZiEu4GHsYG-32" value="" style="line;strokeWidth=2;html=1;fontSize=20;fontColor=#4D4D4D;" parent="1" vertex="1">
           <mxGeometry x="103.5" y="80" width="960" height="10" as="geometry" />
         </mxCell>
-        <mxCell id="PyPyBVz37VsoSbRf0Db0-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="PyPyBVz37VsoSbRf0Db0-1" target="PyPyBVz37VsoSbRf0Db0-4">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="320" y="190" as="targetPoint" />
+        <mxCell id="PyPyBVz37VsoSbRf0Db0-1" value="Playlist from Spotify" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="140" y="250" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PyPyBVz37VsoSbRf0Db0-4" value="&lt;div style=&quot;text-align: center&quot;&gt;&lt;span style=&quot;text-align: left&quot;&gt;Label data&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;- python library:&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;&amp;nbsp; spotipy&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="320" y="250" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PyPyBVz37VsoSbRf0Db0-6" value="Select key features&lt;br&gt;&lt;div&gt;- python library:&lt;/div&gt;&lt;div&gt;&amp;nbsp; matplotlib&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
+          <mxGeometry x="680.25" y="360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_f1MKiaOYQI1P3GKJWdN-3" value="&lt;div&gt;&lt;span&gt;Train KNN model&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;div&gt;- python library:&lt;/div&gt;&lt;div&gt;&amp;nbsp; sklearn&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="680.25" y="480" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_f1MKiaOYQI1P3GKJWdN-4" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="PyPyBVz37VsoSbRf0Db0-4" target="_f1MKiaOYQI1P3GKJWdN-33">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="560" y="670" as="sourcePoint" />
+            <mxPoint x="500" y="280" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="PyPyBVz37VsoSbRf0Db0-1" value="Playlist from Spotify" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="120" y="160" width="120" height="60" as="geometry" />
+        <mxCell id="_f1MKiaOYQI1P3GKJWdN-8" value="Evaluate model" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="680.25" y="600" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="PyPyBVz37VsoSbRf0Db0-4" value="&lt;u&gt;Using spotipy&lt;/u&gt;&lt;br&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;- label data&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;- extract features&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="320" y="160" width="120" height="60" as="geometry" />
+        <mxCell id="_f1MKiaOYQI1P3GKJWdN-12" value="Separate into playlists" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="500.25" y="600" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="PyPyBVz37VsoSbRf0Db0-5" value="store data" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
-          <mxGeometry x="640" y="160" width="120" height="60" as="geometry" />
+        <mxCell id="_f1MKiaOYQI1P3GKJWdN-16" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="PyPyBVz37VsoSbRf0Db0-1" target="PyPyBVz37VsoSbRf0Db0-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="560" y="540" as="sourcePoint" />
+            <mxPoint x="610" y="490" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="PyPyBVz37VsoSbRf0Db0-6" value="compare feature relations" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
-          <mxGeometry x="480" y="160" width="120" height="60" as="geometry" />
+        <mxCell id="_f1MKiaOYQI1P3GKJWdN-26" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="PyPyBVz37VsoSbRf0Db0-6" target="_f1MKiaOYQI1P3GKJWdN-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="570.25" y="670" as="sourcePoint" />
+            <mxPoint x="620.25" y="620" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_f1MKiaOYQI1P3GKJWdN-28" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="_f1MKiaOYQI1P3GKJWdN-8" target="_f1MKiaOYQI1P3GKJWdN-12">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="590.25" y="690" as="sourcePoint" />
+            <mxPoint x="640.25" y="640" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_f1MKiaOYQI1P3GKJWdN-29" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="_f1MKiaOYQI1P3GKJWdN-8" target="_f1MKiaOYQI1P3GKJWdN-32">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="600.25" y="700" as="sourcePoint" />
+            <mxPoint x="859.75" y="630" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_f1MKiaOYQI1P3GKJWdN-31" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="_f1MKiaOYQI1P3GKJWdN-8" target="_f1MKiaOYQI1P3GKJWdN-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="560" y="580" as="sourcePoint" />
+            <mxPoint x="610" y="530" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_f1MKiaOYQI1P3GKJWdN-32" value="Data visualization&lt;br&gt;&lt;div style=&quot;text-align: left&quot;&gt;- matplotlib&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="859.75" y="590" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="_f1MKiaOYQI1P3GKJWdN-33" value="&lt;div&gt;&lt;span&gt;Store Data&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;- locally stored&lt;/span&gt;&lt;/div&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;align=center;" vertex="1" parent="1">
+          <mxGeometry x="515" y="235" width="90" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="_f1MKiaOYQI1P3GKJWdN-36" value="&lt;div&gt;&lt;span&gt;Data preprocessing&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;div&gt;- python library:&lt;/div&gt;&lt;div&gt;&amp;nbsp; pandas&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="680.25" y="250" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_f1MKiaOYQI1P3GKJWdN-37" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="_f1MKiaOYQI1P3GKJWdN-33" target="_f1MKiaOYQI1P3GKJWdN-36">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="560" y="580" as="sourcePoint" />
+            <mxPoint x="610" y="530" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_f1MKiaOYQI1P3GKJWdN-38" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="_f1MKiaOYQI1P3GKJWdN-36" target="PyPyBVz37VsoSbRf0Db0-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="610" y="630" as="sourcePoint" />
+            <mxPoint x="660" y="580" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
